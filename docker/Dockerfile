@@ -9,3 +9,4 @@ RUN apt-get update && apt-get -y upgrade \
 COPY ./entrypoint.sh /
 EXPOSE 3000
 ENTRYPOINT /entrypoint.sh
+#
