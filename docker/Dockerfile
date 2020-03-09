@@ -1,6 +1,5 @@
 FROM ubuntu:latest
 
-#RUN apt-get install -y git build-essential cpanminus libchi-perl libmojolicious-perl libdatetime-perl libxml-simple-perl libmoo-perl libjson-maybexs-perl libhash-asobject-perl libdata-parsebinary-perl libdigest-crc-perl libcache-perl libtest-longstring-perl libio-pty-perl \
 RUN git clone https://github.com/nebulous/infinitude.git /infinitude \ 
 && chmod +x /infinitude/infinitude \
 && cd /infinitude \
