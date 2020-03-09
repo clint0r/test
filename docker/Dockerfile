@@ -1,5 +1,3 @@
-FROM ubuntu:latest
-
 RUN git clone https://github.com/nebulous/infinitude.git /infinitude \ 
 && chmod +x /infinitude/infinitude \
 && cd /infinitude \
