@@ -7,6 +7,6 @@ RUN apt-get update && apt-get -y upgrade \
     && cd /infinitude \
     && cpanm Mojolicious::Lite CHI DateTime Try::Tiny Path::Tiny JSON IO::Termios
 #COPY /home/infadmin/test/entrypoint.sh /
-    && curl hhttps://raw.githubusercontent.com/clint0r/test/master/docker/entrypoint.sh > entrypoint.sh
+    && curl https://raw.githubusercontent.com/clint0r/test/master/docker/entrypoint.sh > entrypoint.sh
 EXPOSE 3000
 ENTRYPOINT /entrypoint.sh
